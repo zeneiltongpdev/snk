@@ -1,0 +1,11 @@
+{
+  "name": "@snk/compute-rust",
+  "version": "1.0.0",
+  "devDependencies": {
+    "wasm-pack": "0.9.1"
+  },
+  "main": "./pkg/snk_compute_rust.js",
+  "scripts": {
+    "build": "wasm-pack build"
+  }
+}
